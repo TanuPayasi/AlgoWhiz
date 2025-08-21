@@ -1,0 +1,83 @@
+.track-container {
+  padding: 24px;
+}
+
+.add-form {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr) auto;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.add-form input,
+.add-form select {
+  padding: 6px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+}
+
+.problems-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.problems-table th,
+.problems-table td {
+  padding: 10px 12px;
+  border-bottom: 1px solid #e5e7eb;
+  text-align: left;
+}
+
+.problems-table th {
+  background: #f9fafb;
+  font-weight: 600;
+  color: #374151;
+}
+
+.problems-table tr:hover {
+  background: #f3f4f6;
+}
+
+.diff.easy {
+  color: #10b981;
+  font-weight: 600;
+}
+.diff.medium {
+  color: #f59e0b;
+  font-weight: 600;
+}
+.diff.hard {
+  color: #ef4444;
+  font-weight: 600;
+}
+
+.btn {
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 6px 12px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background 0.2s;
+}
+.btn:hover {
+  background: #1e40af;
+}
+.btn.small {
+  padding: 4px 8px;
+  font-size: 0.8rem;
+}
+.btn.danger {
+  background: #dc2626;
+}
+.btn.danger:hover {
+  background: #991b1b;
+}
