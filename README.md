@@ -20,3 +20,19 @@ Algo Whiz is a *problem tracking web application* built with the MERN stack. It 
 *AI Integration:* OpenAI API  
 
 ---
+## Screenshots
+
+### Login Page
+![Login Page](./images/Login.jpeg)
+
+### Register Page
+![Register Page](./images/Register.jpeg)
+
+### Dashboard
+![Dashboard](./images/Dashboard.jpeg)
+
+### 📑 Problem List
+![Problem List](./images/ProblemList.jpeg)
+
+### Track Problems
+![Problem List](./images/TrackProblems.jpeg)
